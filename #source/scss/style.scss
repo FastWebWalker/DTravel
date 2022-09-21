@@ -1149,9 +1149,10 @@ $mobileSmall: 320px;
   }
 
   &__button {
+    flex: 0 0 130px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px/16px * 100%;
+    line-height: 54px;
     text-align: center;
     letter-spacing: -0.02em;
     text-transform: capitalize;
@@ -1159,7 +1160,6 @@ $mobileSmall: 320px;
     background: #0f415c;
     box-shadow: 0px 12px 20px -5px rgba(23, 23, 126, 0.1);
     border-radius: 4px;
-    padding: 15px 26px;
   }
 }
 .info-email {
